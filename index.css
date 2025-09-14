@@ -1,0 +1,59 @@
+body{
+    background-color: burlywood;
+}
+
+h1{
+    font-size: 100px;
+    text-align: center;
+    margin-top: 50px;
+    border: 1px solid black;
+    border-left: 420px solid black;
+    border-right: 420px solid black;
+    background-image: url(/images/welcome.jpeg);
+}
+
+hr{
+    border: none;
+    height: 2px;
+    background-color: black;
+}
+
+nav{
+    text-align: center;
+}
+
+nav li{
+    display: inline;
+    margin: 10px;
+    margin-left: 1px;
+    font-size: 30px;
+    list-style-type: none;
+    border: 1px solid burlywood;
+    padding: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#welcome{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 100px;
+    margin-left: 40px;
+}
+
+#link{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px;
+    font-weight: bold;
+    margin-left: 40px;
+}
+
+footer{
+    text-align: right;    
+}

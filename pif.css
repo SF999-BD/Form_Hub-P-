@@ -1,0 +1,97 @@
+body{
+    background-color: burlywood;
+}
+
+h1{
+    font-size: 100px;
+    text-align: center;
+    margin-top: 50px;
+    border: 1px solid black;
+    border-left: 420px solid black;
+    border-right: 420px solid black;
+    background-image: url(/images/welcome.jpeg);
+}
+
+hr{
+    border: none;
+    height: 2px;
+    background-color: black;
+}
+
+h2{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 20px;
+    border: 1px solid black;
+    margin-left: 470px;
+    margin-right: 470px;
+}
+
+legend{
+   font-size: 50px;  
+}
+
+div{
+    border: 1px solid black;
+}
+
+label{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.mofa{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+input{
+    font-size: 20px;
+    background-color: burlywood;
+    border: 1px solid burlywood;
+}
+
+.first{
+    all: unset;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.second{
+    all: unset;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#upload{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+fieldset{
+    border: 2px solid black;
+}
+
+.bhitor{
+    border: 1px solid red;
+}
+
+#submit{
+    border: 1px solid green;
+    margin-left: 610px;
+    margin-right: 610px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: green;  
+}
+
+#end{
+    text-decoration: none;
+    color: black;
+    background-color: green;
+}
+
+footer{
+    text-align: right;    
+}

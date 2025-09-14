@@ -1,0 +1,65 @@
+body{
+    background-color: burlywood;
+}
+
+h1{
+    font-size: 100px;
+    text-align: center;
+    margin-top: 50px;
+    border: 1px solid black;
+    border-left: 420px solid black;
+    border-right: 420px solid black;
+    background-image: url(/images/welcome.jpeg);
+}
+
+nav{
+    text-align: center;
+}
+
+nav li{
+    display: inline;
+    margin: 10px;
+    margin-left: 1px;
+    font-size: 30px;
+    list-style-type: none;
+    border: 1px solid burlywood;
+    padding: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+hr{
+    border: none;
+    height: 2px;
+    background-color: black;
+}
+
+h2{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 50px;
+    margin-left: 20px;
+    border: 1px solid black;
+    margin-right: 500px;
+    margin-left: 520px;
+}
+
+div li{
+    color: black;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+div a{
+    font-size: 20px;
+}
+
+footer{
+    text-align: right;    
+}

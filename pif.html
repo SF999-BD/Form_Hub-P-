@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Details Form-Form Hub</title>
+    <link rel="stylesheet" href="pif.css">
+    <link rel="shortcut icon" href="/images/logo.jpg" type="image/x-icon">
+</head>
+
+<header>
+     <h1>
+        Form Hub
+    </h1>
+    
+    <hr>
+</header>
+<body>
+    <h2>Personal Details Form</h2>
+
+    <br>
+    <br>
+
+    <form>
+        <fieldset>
+
+            <legend class="first">✅ Basic Information</legend><br>
+           
+            <div><label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your full name" required></div><br>
+
+            <div><label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required></div><br>
+
+            <fieldset>
+            <legend class="second">Gender</legend><br>
+            <label class="mofa" for="gender">Male</label>
+            <input type="radio" id="gender" name="gender" value="Male"><br><br>
+            <label class="mofa" for="gender">Female</label>
+            <input type="radio" id="gender" name="gender" value="Female"><br><br>
+            <label class="mofa" for="gender">Others</label>
+            <input type="radio" id="gender" name="gender" value="Others"><br>
+            <textarea name="others" id="others" placeholder="Enter your gender" cols="16px" rows="1px"></textarea><br>
+            </fieldset><br>
+
+            <fieldset>
+            <legend class="second">Blood Group</legend><br>
+            <label class="mofa" for="blood">A+</label> 
+            <input type="radio" id="A+" name="blood" value="A+"><br><br>
+            <label class="mofa" for="blood">A-</label>
+            <input type="radio" id="A-" name="blood" value="A-"><br><br>
+            <label class="mofa" for="blood">B+</label>
+            <input type="radio" id="B+" name="blood" value="B+"><br><br>
+            <label class="mofa" for="blood">B-</label>
+            <input type="radio" id="B-" name="blood" value="B-"><br><br>
+            <label class="mofa" for="blood">O+</label>
+            <input type="radio" id="O+" name="blood" value="O+"><br><br>
+            <label class="mofa" for="blood">O-</label>
+            <input type="radio" id="O-" name="blood" value="O-"><br><br>
+            <label class="mofa" for="blood">AB+</label>
+            <input type="radio" id="AB+" name="blood" value="AB+"><br><br>
+            <label class="mofa" for="blood">AB-</label>
+            <input type="radio" id="AB-" name="blood" value="AB-"><br><br>    
+        </fieldset><br>
+
+        <fieldset>
+        <legend class="second">Marital Status</legend><br>
+        <label class="mofa" for="status">Single</label>
+        <input type="radio" id="single" name="status" value="Single"><br><br>
+        <label class="mofa" for="status">Married</label>
+        <input type="radio" id="married" name="status" value="Married"><br><br>
+        <label class="mofa" for="status">Divorced</label>
+        <input type="radio" id="divorced" name="status" value="Divorced"><br><br>
+        <label class="mofa" for="status">Widowed</label>
+        <input type="radio" id="widowed" name="status" value="Widowed"><br><br>
+        <label class="mofa" for="status">Others</label>
+        <input type="radio" id="others" name="status" value="Others"><br>
+        <textarea name="others" id="others" placeholder="Enter your status" cols="16px" rows="1px"></textarea><br>
+        </fieldset><br>
+
+        <fieldset>
+        <legend class="second">Nationality</legend><br>
+        <label class="mofa" for="nationality">Bangladeshi</label>
+        <input type="radio" id="bangladeshi" name="nationality" value="Bangladeshi"><br><br>
+        <label class="mofa" for="nationality">Others</label>
+        <input type="radio" id="others" name="nationality" value="Others"><br>
+        <textarea name="others" id="others" placeholder="Enter your nationality" cols="21px" rows="1px"></textarea><br>
+        </fieldset><br>
+
+        <div><label for="photo">Upload Your Picture:</label><br>
+        <input type="file" id="upload" name="photo"></div>
+        </fieldset>
+
+        <br>
+        <br>
+
+        <fieldset>
+            <legend class="first">📞 Contact Information</legend><br>
+        
+            <div><label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required></div><br>
+
+            <div><label for="phone">Phone Number:</label>
+            <input type="number" id="phone" name="phone" placeholder="Enter your phone number" required></div><br>
+
+            <div><label for="address">Present Address:</label>
+            <input type="text" id="address" name="address" placeholder="Enter your address" required></div><br>
+
+            <div><label for="address">Permanent Address:</label>
+            <input type="text" id="address" name="address" placeholder="Enter your address" required></div><br>
+
+        </fieldset>
+
+        <br>
+        <br>
+
+        <fieldset>
+            <legend class="first">🎓Educational/ Professional Information</legend><br>
+
+            <fieldset>
+            <legend class="second">Highest Educational Qualification</legend><br>
+            <label class="mofa" for="education">SSC</label>
+            <input type="radio" id="ssc" name="education" value="SSC"><br><br>
+            <label class="mofa" for="education">HSC</label>
+            <input type="radio" id="hsc" name="education" value="HSC"><br><br>
+            <label class="mofa" for="education">Graduate</label>
+            <input type="radio" id="graduate" name="education" value="Graduate"><br><br>
+            <label class="mofa" for="education">Post Graduate</label>
+            <input type="radio" id="post_graduate" name="education" value="Post Graduate"><br><br>
+            <label class="mofa" for="education">Others</label>
+            <input type="radio" id="others" name="education" value="Others"><br>
+            <textarea name="others" id="others" placeholder="Enter your qualification" cols="23px" rows="1px"></textarea><br>
+            </fieldset><br>
+
+            <fieldset>
+                <legend class="second">Occupation/Job Details</legend><br>
+                <label class="mofa" for="occupation">Employed</label>
+                <input type="radio" id="employed" name="occupation" value="Employed"><br><br>
+                <label class="mofa" for="occupation">Unemployed</label>
+                <input type="radio" id="unemployed" name="occupation" value="Unemployed"><br><br>
+                <label class="mofa" for="occupation">Student</label>
+                <input type="radio" id="student" name="occupation" value="Student"><br><br>
+                <label class="mofa" for="occupation">Business</label>
+                <input type="radio" id="business" name="occupation" value="Business"><br><br>
+                <label class="mofa" for="occupation">Others</label>
+                <input type="radio" id="others" name="occupation" value="Others"><br>
+                <textarea name="others" id="others" placeholder="Enter your occupation" cols="20px" rows="1px"></textarea><br>
+            </fieldset>
+
+        </fieldset>
+
+        <br>
+        <br>
+
+        <fieldset>
+            <legend class="first">📝Identity Information</legend><br>
+            <div><label for="nid">NID Number:</label>
+            <input type="number" id="nid" name="nid" placeholder="Enter your NID number" required></div><br>
+            <div><label for="birth">Birth Certificate Number:</label>
+            <input type="number" id="birth" name="birth" placeholder="Enter your birth certificate number" required></div><br>
+            <div><label for="passport">Passport Number (If Available):</label>
+            <input type="number" id="passport" name="passport" placeholder="Enter your passport number" required></div><br>            
+        </fieldset>
+
+        <br>
+        <br>
+
+        <fieldset>
+            <legend class="first">🚨 Emergency Contact</legend><br>
+            <div><label for="emergency_name">Emergency Contact Person's Name:</label>
+            <input type="text" id="emergency_name" name="emergency_name" placeholder="Enter contact person's name" required></div><br>
+            <div><label for="emergency_relation">Relation with Contact Person:</label>
+            <input type="text" id="emergency_relation" name="emergency_relation" placeholder="Enter your relation" required></div><br>
+            <div><label for="emergency_phone">Emergency Contact Phone Number:</label>
+            <input type="number" id="emergency_phone" name="emergency_phone" placeholder="Enter contact person's phone number" required></div><br>
+        </fieldset>
+
+        <br>
+        <br>
+        <div id="submit">
+             <a id="end" href="end.html">Submit</a>           
+        </div>            
+    </form>   
+</body>
+
+<footer>
+    <p><small>&copy; 2025 Form Hub. All rights reserved</small></p>
+</footer>
+</html>
